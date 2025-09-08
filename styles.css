@@ -184,3 +184,8 @@ html, body {
   background-color: #c82333;
 }
 
+.letra-bola {
+  font-weight: bold;
+  font-family: "Georgia", serif;
+  margin-right: 2px;
+}
