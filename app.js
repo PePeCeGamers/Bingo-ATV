@@ -118,7 +118,7 @@ function cantarBolilla(numero) {
   const texto = `${letra} ${numero}`; // ej: "B 2"
 
   const utterance = new SpeechSynthesisUtterance(texto);
-  utterance.lang = "es-ES"; // español (puedes probar "es-MX" o "en-US")
+  utterance.lang = "es-MX"; // español (puedes probar "es-MX" o "en-US")
   utterance.rate = 0.9;     // velocidad (0.5 más lento, 2 más rápido)
   utterance.pitch = 1.0;    // tono
   utterance.volume = 1.0;   // volumen (0 a 1)
