@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bingo - Pantalla Completa</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="contenedor-principal">
+    <div id="numero-container">
+      <div id="titulo">
+        BINGO #1
+        <span>"Desarrolado por PPC GAMERS"</span>
+      </div>
+      <div class="bolilla" id="numero">0</div>
+      <div id="historial-container">
+        <div class="bola-pequeña" id="bola1">0</div>
+        <div class="bola-pequeña" id="bola2">0</div>
+        <div class="bola-pequeña" id="bola3">0</div>
+      </div>
+
+      <!-- Caja de entrada en lugar de prompt -->
+      <div id="entrada-numero">
+        <input type="number" id="input-numero" min="1" max="75" placeholder="Nro 1-75">
+        <button id="boton-ingresar">Ingresar Número</button>
+        <button id="boton-aleatorio">Generar Número</button>
+        <button id="boton-reset">Reset</button>
+
+      </div>
+    </div>
+
+    <div id="tablero-container">
+      <div id="tablero">
+        <div class="celda-tablero letra-columna">B</div>
+        <div class="celda-tablero letra-columna">I</div>
+        <div class="celda-tablero letra-columna">N</div>
+        <div class="celda-tablero letra-columna">G</div>
+        <div class="celda-tablero letra-columna">O</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
